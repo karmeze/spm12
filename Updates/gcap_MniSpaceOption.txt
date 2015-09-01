@@ -1,0 +1,23 @@
+// This is options text file used by MNI space utility
+//
+// To comment line use //
+// Utility will ignore line starting from //
+//
+// When edit options in this do not change text part of options
+// you should edit only values. Do not insert spaces.
+//
+// Threshold set threshold (in percents)
+// which determine regions which will be included in the output report.
+//
+// Region will be included into report 
+// Cluster threshold,n - if region intersects more than n percents of the cluster
+//
+Threshold, 0
+//
+// The following option allow include(1)/exclude(0) regions into/from report
+//
+Show level 1 labels,1
+Show level 2 labels,1
+Show level 3 labels,1
+Show level 4 labels,1
+Show level 5 labels,1
